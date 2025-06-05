@@ -44,7 +44,7 @@ pub async fn models(
             "owned_by": "meta-llama",
         }),
         serde_json::json!({
-            "id": "o3-mini",
+            "id": "o4-mini",
             "object": "model",
             "created": 1686935002,
             "owned_by": "openai",

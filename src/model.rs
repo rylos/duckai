@@ -54,7 +54,7 @@ where
         "llama-3.3-70b" => "meta-llama/Llama-3.3-70B-Instruct-Turbo",
         "mixtral-small-3" => "mistralai/Mistral-Small-24B-Instruct-2501",
         "gpt-4o-mini" => "gpt-4o-mini",
-        "o3-mini" => "o3-mini",
+        "o4-mini" => "o4-mini",
         _ => model.as_str(),
     };
     Ok(model.to_owned())
