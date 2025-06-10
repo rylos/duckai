@@ -149,11 +149,11 @@ pub fn gen_request_hash(hash: &str) -> Result<String> {
         "client_hashes": [user_agent_hash, number_hash],
         "signals": {},
         "meta": {
-            "v": "2",
+            "v": "3",
             "challenge_id": challenge_id,
             "timestamp": timestamp,
             "origin":"https://duckduckgo.com",
-            "stack":"@https://duckduckgo.com/dist/wpm.chat.4d2c43372ea1cb5de8c4.js:1:58786"
+            "stack":"@https://duckduckgo.com/dist/wpm.chat.4a9875a416a3b5ff84e8.js:1:59965"
         }
     });
     // dbg!(result_json.to_string());
